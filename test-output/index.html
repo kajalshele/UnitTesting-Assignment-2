@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-BankAccountSmokeTest" class="navigator-link">
+              <span class="suite-name border-passed">BankAccountSmokeTest</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-BankAccountSmokeTest" class="navigator-link ">
+                    <span>C:\Users\Kajal Shele\eclipse-workspace\BankAccountAPI\BankAccountSmokeTest.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-BankAccountSmokeTest" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-BankAccountSmokeTest" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-BankAccountSmokeTest" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-BankAccountSmokeTest" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-BankAccountSmokeTest" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-BankAccountSmokeTest" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-BankAccountSmokeTest" class="hide-methods passed suite-BankAccountSmokeTest"> (hide)</a> <!-- hide-methods passed suite-BankAccountSmokeTest -->
+                      <a href="#" panel-name="suite-BankAccountSmokeTest" class="show-methods passed suite-BankAccountSmokeTest"> (show)</a> <!-- show-methods passed suite-BankAccountSmokeTest -->
+                    </span>
+                    <div class="method-list-content passed suite-BankAccountSmokeTest">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BankAccountSmokeTest" title="QualityKioskTraining.BankAccountAPI.SavingsAccountTest" class="method navigator-link" hash-for-method="depositeTest">depositeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BankAccountSmokeTest" title="QualityKioskTraining.BankAccountAPI.SavingsAccountTest" class="method navigator-link" hash-for-method="earnInterestTest">earnInterestTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BankAccountSmokeTest" title="QualityKioskTraining.BankAccountAPI.SalaryAccountTest" class="method navigator-link" hash-for-method="salaryAccountWithdrawTest">salaryAccountWithdrawTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BankAccountSmokeTest" title="QualityKioskTraining.BankAccountAPI.SavingsAccountTest" class="method navigator-link" hash-for-method="savingAccountWithdrawTest">savingAccountWithdrawTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-BankAccountSmokeTest -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-BankAccountSmokeTest" class="panel BankAccountSmokeTest">
+          <div class="suite-BankAccountSmokeTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">QualityKioskTraining.BankAccountAPI.SavingsAccountTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="depositeTest">
+                  </a> <!-- depositeTest -->
+                  <span class="method-name">depositeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="earnInterestTest">
+                  </a> <!-- earnInterestTest -->
+                  <span class="method-name">earnInterestTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="savingAccountWithdrawTest">
+                  </a> <!-- savingAccountWithdrawTest -->
+                  <span class="method-name">savingAccountWithdrawTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BankAccountSmokeTest-class-passed -->
+          <div class="suite-BankAccountSmokeTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">QualityKioskTraining.BankAccountAPI.SalaryAccountTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="salaryAccountWithdrawTest">
+                  </a> <!-- salaryAccountWithdrawTest -->
+                  <span class="method-name">salaryAccountWithdrawTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BankAccountSmokeTest-class-passed -->
+        </div> <!-- panel BankAccountSmokeTest -->
+        <div panel-name="test-xml-BankAccountSmokeTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Kajal Shele\eclipse-workspace\BankAccountAPI\BankAccountSmokeTest.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;BankAccountSmokeTest&quot;&gt;
+  &lt;groups&gt;
+    &lt;run&gt;
+      &lt;include name=&quot;smokeTest&quot;/&gt;
+    &lt;/run&gt;
+  &lt;/groups&gt;
+  &lt;groups&gt;
+    &lt;run&gt;
+      &lt;include name=&quot;smokeTest&quot;/&gt;
+    &lt;/run&gt;
+  &lt;/groups&gt;
+  &lt;parameter name=&quot;RequestID&quot; value=&quot;new&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;SavingsTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;QualityKioskTraining.BankAccountAPI.SavingsAccountTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SavingsTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;SalaryTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;QualityKioskTraining.BankAccountAPI.SalaryAccountTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SalaryTest --&gt;
+&lt;/suite&gt; &lt;!-- BankAccountSmokeTest --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-BankAccountSmokeTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for BankAccountSmokeTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">SavingsTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">SalaryTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-BankAccountSmokeTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for BankAccountSmokeTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">smokeTest</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">depositeTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">earnInterestTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">salaryAccountWithdrawTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">savingAccountWithdrawTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-BankAccountSmokeTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for BankAccountSmokeTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_BankAccountSmokeTest');
+function tableData_BankAccountSmokeTest() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'depositeTest')
+data.setCell(0, 2, 'QualityKioskTraining.BankAccountAPI.SavingsAccountTest')
+data.setCell(0, 3, 25);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'savingAccountWithdrawTest')
+data.setCell(1, 2, 'QualityKioskTraining.BankAccountAPI.SavingsAccountTest')
+data.setCell(1, 3, 10);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'salaryAccountWithdrawTest')
+data.setCell(2, 2, 'QualityKioskTraining.BankAccountAPI.SalaryAccountTest')
+data.setCell(2, 3, 6);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'earnInterestTest')
+data.setCell(3, 2, 'QualityKioskTraining.BankAccountAPI.SavingsAccountTest')
+data.setCell(3, 3, 4);
+window.suiteTableData['BankAccountSmokeTest']= { tableData: data, tableDiv: 'times-div-BankAccountSmokeTest'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 45 ms</span>
+              <div id="times-div-BankAccountSmokeTest">
+              </div> <!-- times-div-BankAccountSmokeTest -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-BankAccountSmokeTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for BankAccountSmokeTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-BankAccountSmokeTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">QualityKioskTraining.BankAccountAPI.SavingsAccountTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">depositeTestDataDriven</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-BankAccountSmokeTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">QualityKioskTraining.BankAccountAPI.SavingsAccountTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">beforeGroup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">reInitializeBalance</span>
+                <span class="method-start">27 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">depositeTest</span>
+                <span class="method-start">29 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reInitializeVar</span>
+                <span class="method-start">68 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">reInitializeBalance</span>
+                <span class="method-start">79 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">earnInterestTest</span>
+                <span class="method-start">83 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reInitializeVar</span>
+                <span class="method-start">96 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">reInitializeBalance</span>
+                <span class="method-start">98 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">savingAccountWithdrawTest</span>
+                <span class="method-start">99 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reInitializeVar</span>
+                <span class="method-start">121 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">QualityKioskTraining.BankAccountAPI.SalaryAccountTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">beforeGroup</span>
+                <span class="method-start">408 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">reInitializeBalance</span>
+                <span class="method-start">412 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">salaryAccountWithdrawTest</span>
+                <span class="method-start">413 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reInitializeVar</span>
+                <span class="method-start">425 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

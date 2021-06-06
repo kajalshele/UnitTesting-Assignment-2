@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="5" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-22T16:58:39 IST" name="BankAccountSmokeTest" finished-at="2021-04-22T16:58:40 IST" duration-ms="564">
+    <groups>
+      <group name="smokeTest">
+        <method signature="SavingsAccountTest.depositeTest()[pri:0, instance:QualityKioskTraining.BankAccountAPI.SavingsAccountTest@a3d8174]" name="depositeTest" class="QualityKioskTraining.BankAccountAPI.SavingsAccountTest"/>
+        <method signature="SavingsAccountTest.earnInterestTest()[pri:0, instance:QualityKioskTraining.BankAccountAPI.SavingsAccountTest@a3d8174]" name="earnInterestTest" class="QualityKioskTraining.BankAccountAPI.SavingsAccountTest"/>
+        <method signature="SavingsAccountTest.savingAccountWithdrawTest()[pri:0, instance:QualityKioskTraining.BankAccountAPI.SavingsAccountTest@a3d8174]" name="savingAccountWithdrawTest" class="QualityKioskTraining.BankAccountAPI.SavingsAccountTest"/>
+        <method signature="SalaryAccountTest.salaryAccountWithdrawTest()[pri:0, instance:QualityKioskTraining.BankAccountAPI.SalaryAccountTest@6da21078]" name="salaryAccountWithdrawTest" class="QualityKioskTraining.BankAccountAPI.SalaryAccountTest"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test started-at="2021-04-22T16:58:39 IST" name="SavingsTest" finished-at="2021-04-22T16:58:39 IST" duration-ms="286">
+      <class name="QualityKioskTraining.BankAccountAPI.SavingsAccountTest">
+        <test-method is-config="true" signature="beforeGroup()[pri:0, instance:QualityKioskTraining.BankAccountAPI.SavingsAccountTest@a3d8174]" started-at="2021-04-22T16:58:39 IST" name="beforeGroup" finished-at="2021-04-22T16:58:39 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeGroup -->
+        <test-method is-config="true" signature="reInitializeBalance()[pri:0, instance:QualityKioskTraining.BankAccountAPI.SavingsAccountTest@a3d8174]" started-at="2021-04-22T16:58:39 IST" name="reInitializeBalance" finished-at="2021-04-22T16:58:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reInitializeBalance -->
+        <test-method signature="depositeTest()[pri:0, instance:QualityKioskTraining.BankAccountAPI.SavingsAccountTest@a3d8174]" started-at="2021-04-22T16:58:39 IST" name="depositeTest" finished-at="2021-04-22T16:58:39 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- depositeTest -->
+        <test-method is-config="true" signature="reInitializeVar()[pri:0, instance:QualityKioskTraining.BankAccountAPI.SavingsAccountTest@a3d8174]" started-at="2021-04-22T16:58:39 IST" name="reInitializeVar" finished-at="2021-04-22T16:58:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reInitializeVar -->
+        <test-method is-config="true" signature="reInitializeBalance()[pri:0, instance:QualityKioskTraining.BankAccountAPI.SavingsAccountTest@a3d8174]" started-at="2021-04-22T16:58:39 IST" name="reInitializeBalance" finished-at="2021-04-22T16:58:39 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reInitializeBalance -->
+        <test-method signature="earnInterestTest()[pri:0, instance:QualityKioskTraining.BankAccountAPI.SavingsAccountTest@a3d8174]" started-at="2021-04-22T16:58:39 IST" name="earnInterestTest" finished-at="2021-04-22T16:58:39 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- earnInterestTest -->
+        <test-method is-config="true" signature="reInitializeVar()[pri:0, instance:QualityKioskTraining.BankAccountAPI.SavingsAccountTest@a3d8174]" started-at="2021-04-22T16:58:39 IST" name="reInitializeVar" finished-at="2021-04-22T16:58:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reInitializeVar -->
+        <test-method is-config="true" signature="reInitializeBalance()[pri:0, instance:QualityKioskTraining.BankAccountAPI.SavingsAccountTest@a3d8174]" started-at="2021-04-22T16:58:39 IST" name="reInitializeBalance" finished-at="2021-04-22T16:58:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reInitializeBalance -->
+        <test-method signature="savingAccountWithdrawTest()[pri:0, instance:QualityKioskTraining.BankAccountAPI.SavingsAccountTest@a3d8174]" started-at="2021-04-22T16:58:39 IST" name="savingAccountWithdrawTest" finished-at="2021-04-22T16:58:39 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- savingAccountWithdrawTest -->
+        <test-method is-config="true" signature="reInitializeVar()[pri:0, instance:QualityKioskTraining.BankAccountAPI.SavingsAccountTest@a3d8174]" started-at="2021-04-22T16:58:39 IST" name="reInitializeVar" finished-at="2021-04-22T16:58:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reInitializeVar -->
+      </class> <!-- QualityKioskTraining.BankAccountAPI.SavingsAccountTest -->
+    </test> <!-- SavingsTest -->
+    <test started-at="2021-04-22T16:58:40 IST" name="SalaryTest" finished-at="2021-04-22T16:58:40 IST" duration-ms="25">
+      <class name="QualityKioskTraining.BankAccountAPI.SalaryAccountTest">
+        <test-method is-config="true" signature="beforeGroup()[pri:0, instance:QualityKioskTraining.BankAccountAPI.SalaryAccountTest@6da21078]" started-at="2021-04-22T16:58:40 IST" name="beforeGroup" finished-at="2021-04-22T16:58:40 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeGroup -->
+        <test-method is-config="true" signature="reInitializeBalance()[pri:0, instance:QualityKioskTraining.BankAccountAPI.SalaryAccountTest@6da21078]" started-at="2021-04-22T16:58:40 IST" name="reInitializeBalance" finished-at="2021-04-22T16:58:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reInitializeBalance -->
+        <test-method signature="salaryAccountWithdrawTest()[pri:0, instance:QualityKioskTraining.BankAccountAPI.SalaryAccountTest@6da21078]" started-at="2021-04-22T16:58:40 IST" name="salaryAccountWithdrawTest" finished-at="2021-04-22T16:58:40 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- salaryAccountWithdrawTest -->
+        <test-method is-config="true" signature="reInitializeVar()[pri:0, instance:QualityKioskTraining.BankAccountAPI.SalaryAccountTest@6da21078]" started-at="2021-04-22T16:58:40 IST" name="reInitializeVar" finished-at="2021-04-22T16:58:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reInitializeVar -->
+      </class> <!-- QualityKioskTraining.BankAccountAPI.SalaryAccountTest -->
+    </test> <!-- SalaryTest -->
+  </suite> <!-- BankAccountSmokeTest -->
+</testng-results>

@@ -1,0 +1,21 @@
+<suite name="BankAccountSmokeTest">
+	<parameter name="RequestID" value="new">
+	<groups>
+		<run>
+			<include name="smokeTest" />
+		</run>
+	</groups>
+	
+	<test name="SavingsTest">
+		<classes>
+			<class name="QualityKioskTraining.BankAccountAPI.SavingsAccountTest"/>
+		</classes>
+	</test>
+	<test name="SalaryTest">
+		<classes>
+			<class name="QualityKioskTraining.BankAccountAPI.SalaryAccountTest"/>
+		</classes>
+	</test>
+	
+	</parameter>
+</suite>

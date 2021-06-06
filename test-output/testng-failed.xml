@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BankAccount]">
+  <parameter name="RequestId" value="report"/>
+  <test thread-count="5" name="SavingsAccountTest(failed)">
+    <classes>
+      <class name="QualityKioskTraining.BankAccountAPI.SavingsAccountTest">
+        <methods>
+          <include name="depositeTestDataDriven"/>
+          <include name="tearDown"/>
+          <include name="depositeTest"/>
+          <include name="createResultFolder"/>
+          <include name="copyReportFile"/>
+          <include name="earnInterestTest"/>
+          <include name="savingAccountWithdrawTest"/>
+          <include name="reInitializeVar"/>
+          <include name="reInitializeBalance"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- QualityKioskTraining.BankAccountAPI.SavingsAccountTest -->
+    </classes>
+  </test> <!-- SavingsAccountTest(failed) -->
+  <test thread-count="5" name="SalaryAccountTest(failed)">
+    <classes>
+      <class name="QualityKioskTraining.BankAccountAPI.SalaryAccountTest">
+        <methods>
+          <include name="salaryAccountWithdrawTest"/>
+          <include name="copyReportFile"/>
+          <include name="createResultFolder"/>
+          <include name="reInitializeBalance"/>
+          <include name="tearDown"/>
+          <include name="reInitializeVar"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- QualityKioskTraining.BankAccountAPI.SalaryAccountTest -->
+    </classes>
+  </test> <!-- SalaryAccountTest(failed) -->
+</suite> <!-- Failed suite [BankAccount] -->

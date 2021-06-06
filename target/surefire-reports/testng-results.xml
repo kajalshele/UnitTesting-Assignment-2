@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-22T16:59:54 IST" name="BankAccount" finished-at="2021-04-22T16:59:54 IST" duration-ms="284">
+    <groups>
+      <group name="smokeTest">
+        <method signature="SavingsAccountTest.depositeTest()[pri:0, instance:QualityKioskTraining.BankAccountAPI.SavingsAccountTest@15761df8]" name="depositeTest" class="QualityKioskTraining.BankAccountAPI.SavingsAccountTest"/>
+        <method signature="SavingsAccountTest.earnInterestTest()[pri:0, instance:QualityKioskTraining.BankAccountAPI.SavingsAccountTest@15761df8]" name="earnInterestTest" class="QualityKioskTraining.BankAccountAPI.SavingsAccountTest"/>
+        <method signature="SavingsAccountTest.savingAccountWithdrawTest()[pri:0, instance:QualityKioskTraining.BankAccountAPI.SavingsAccountTest@15761df8]" name="savingAccountWithdrawTest" class="QualityKioskTraining.BankAccountAPI.SavingsAccountTest"/>
+        <method signature="SalaryAccountTest.salaryAccountWithdrawTest()[pri:0, instance:QualityKioskTraining.BankAccountAPI.SalaryAccountTest@4fe767f3]" name="salaryAccountWithdrawTest" class="QualityKioskTraining.BankAccountAPI.SalaryAccountTest"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test started-at="2021-04-22T16:59:54 IST" name="SavingsAccountTest" finished-at="2021-04-22T16:59:54 IST" duration-ms="145">
+      <class name="QualityKioskTraining.BankAccountAPI.SavingsAccountTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:QualityKioskTraining.BankAccountAPI.SavingsAccountTest@15761df8]" started-at="2021-04-22T16:59:54 IST" name="init" finished-at="2021-04-22T16:59:54 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="reInitializeBalance()[pri:0, instance:QualityKioskTraining.BankAccountAPI.SavingsAccountTest@15761df8]" started-at="2021-04-22T16:59:54 IST" name="reInitializeBalance" finished-at="2021-04-22T16:59:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reInitializeBalance -->
+        <test-method signature="depositeTest()[pri:0, instance:QualityKioskTraining.BankAccountAPI.SavingsAccountTest@15761df8]" started-at="2021-04-22T16:59:54 IST" name="depositeTest" finished-at="2021-04-22T16:59:54 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- depositeTest -->
+        <test-method is-config="true" signature="reInitializeVar()[pri:0, instance:QualityKioskTraining.BankAccountAPI.SavingsAccountTest@15761df8]" started-at="2021-04-22T16:59:54 IST" name="reInitializeVar" finished-at="2021-04-22T16:59:54 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reInitializeVar -->
+        <test-method is-config="true" signature="reInitializeBalance()[pri:0, instance:QualityKioskTraining.BankAccountAPI.SavingsAccountTest@15761df8]" started-at="2021-04-22T16:59:54 IST" name="reInitializeBalance" finished-at="2021-04-22T16:59:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reInitializeBalance -->
+        <test-method signature="depositeTestDataDriven(double)[pri:0, instance:QualityKioskTraining.BankAccountAPI.SavingsAccountTest@15761df8]" started-at="2021-04-22T16:59:54 IST" name="depositeTestDataDriven" data-provider="bankSavingsData" finished-at="2021-04-22T16:59:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- depositeTestDataDriven -->
+        <test-method is-config="true" signature="reInitializeVar()[pri:0, instance:QualityKioskTraining.BankAccountAPI.SavingsAccountTest@15761df8]" started-at="2021-04-22T16:59:54 IST" name="reInitializeVar" finished-at="2021-04-22T16:59:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reInitializeVar -->
+        <test-method is-config="true" signature="reInitializeBalance()[pri:0, instance:QualityKioskTraining.BankAccountAPI.SavingsAccountTest@15761df8]" started-at="2021-04-22T16:59:54 IST" name="reInitializeBalance" finished-at="2021-04-22T16:59:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reInitializeBalance -->
+        <test-method signature="depositeTestDataDriven(double)[pri:0, instance:QualityKioskTraining.BankAccountAPI.SavingsAccountTest@15761df8]" started-at="2021-04-22T16:59:54 IST" name="depositeTestDataDriven" data-provider="bankSavingsData" finished-at="2021-04-22T16:59:54 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[500]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- depositeTestDataDriven -->
+        <test-method is-config="true" signature="reInitializeVar()[pri:0, instance:QualityKioskTraining.BankAccountAPI.SavingsAccountTest@15761df8]" started-at="2021-04-22T16:59:54 IST" name="reInitializeVar" finished-at="2021-04-22T16:59:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reInitializeVar -->
+        <test-method is-config="true" signature="reInitializeBalance()[pri:0, instance:QualityKioskTraining.BankAccountAPI.SavingsAccountTest@15761df8]" started-at="2021-04-22T16:59:54 IST" name="reInitializeBalance" finished-at="2021-04-22T16:59:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reInitializeBalance -->
+        <test-method signature="depositeTestDataDriven(double)[pri:0, instance:QualityKioskTraining.BankAccountAPI.SavingsAccountTest@15761df8]" started-at="2021-04-22T16:59:54 IST" name="depositeTestDataDriven" data-provider="bankSavingsData" finished-at="2021-04-22T16:59:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[50000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- depositeTestDataDriven -->
+        <test-method is-config="true" signature="reInitializeVar()[pri:0, instance:QualityKioskTraining.BankAccountAPI.SavingsAccountTest@15761df8]" started-at="2021-04-22T16:59:54 IST" name="reInitializeVar" finished-at="2021-04-22T16:59:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reInitializeVar -->
+        <test-method is-config="true" signature="reInitializeBalance()[pri:0, instance:QualityKioskTraining.BankAccountAPI.SavingsAccountTest@15761df8]" started-at="2021-04-22T16:59:54 IST" name="reInitializeBalance" finished-at="2021-04-22T16:59:54 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reInitializeBalance -->
+        <test-method signature="earnInterestTest()[pri:0, instance:QualityKioskTraining.BankAccountAPI.SavingsAccountTest@15761df8]" started-at="2021-04-22T16:59:54 IST" name="earnInterestTest" finished-at="2021-04-22T16:59:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- earnInterestTest -->
+        <test-method is-config="true" signature="reInitializeVar()[pri:0, instance:QualityKioskTraining.BankAccountAPI.SavingsAccountTest@15761df8]" started-at="2021-04-22T16:59:54 IST" name="reInitializeVar" finished-at="2021-04-22T16:59:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reInitializeVar -->
+        <test-method is-config="true" signature="reInitializeBalance()[pri:0, instance:QualityKioskTraining.BankAccountAPI.SavingsAccountTest@15761df8]" started-at="2021-04-22T16:59:54 IST" name="reInitializeBalance" finished-at="2021-04-22T16:59:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reInitializeBalance -->
+        <test-method signature="savingAccountWithdrawTest()[pri:0, instance:QualityKioskTraining.BankAccountAPI.SavingsAccountTest@15761df8]" started-at="2021-04-22T16:59:54 IST" name="savingAccountWithdrawTest" finished-at="2021-04-22T16:59:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- savingAccountWithdrawTest -->
+        <test-method is-config="true" signature="reInitializeVar()[pri:0, instance:QualityKioskTraining.BankAccountAPI.SavingsAccountTest@15761df8]" started-at="2021-04-22T16:59:54 IST" name="reInitializeVar" finished-at="2021-04-22T16:59:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reInitializeVar -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:QualityKioskTraining.BankAccountAPI.SavingsAccountTest@15761df8]" started-at="2021-04-22T16:59:54 IST" name="tearDown" finished-at="2021-04-22T16:59:54 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- QualityKioskTraining.BankAccountAPI.SavingsAccountTest -->
+    </test> <!-- SavingsAccountTest -->
+    <test started-at="2021-04-22T16:59:54 IST" name="SalaryAccountTest" finished-at="2021-04-22T16:59:54 IST" duration-ms="10">
+      <class name="QualityKioskTraining.BankAccountAPI.SavingsAccountTest">
+        <test-method is-config="true" signature="createResultFolder(java.lang.String)[pri:0, instance:QualityKioskTraining.BankAccountAPI.SavingsAccountTest@15761df8]" started-at="2021-04-22T16:59:54 IST" name="createResultFolder" finished-at="2021-04-22T16:59:54 IST" duration-ms="40" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[report]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createResultFolder -->
+        <test-method is-config="true" signature="copyReportFile(java.lang.String)[pri:0, instance:QualityKioskTraining.BankAccountAPI.SavingsAccountTest@15761df8]" started-at="2021-04-22T16:59:54 IST" name="copyReportFile" finished-at="2021-04-22T16:59:54 IST" duration-ms="22" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[report]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- copyReportFile -->
+      </class> <!-- QualityKioskTraining.BankAccountAPI.SavingsAccountTest -->
+      <class name="QualityKioskTraining.BankAccountAPI.SalaryAccountTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:QualityKioskTraining.BankAccountAPI.SalaryAccountTest@4fe767f3]" started-at="2021-04-22T16:59:54 IST" name="init" finished-at="2021-04-22T16:59:54 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="reInitializeBalance()[pri:0, instance:QualityKioskTraining.BankAccountAPI.SalaryAccountTest@4fe767f3]" started-at="2021-04-22T16:59:54 IST" name="reInitializeBalance" finished-at="2021-04-22T16:59:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reInitializeBalance -->
+        <test-method signature="salaryAccountWithdrawTest()[pri:0, instance:QualityKioskTraining.BankAccountAPI.SalaryAccountTest@4fe767f3]" started-at="2021-04-22T16:59:54 IST" name="salaryAccountWithdrawTest" finished-at="2021-04-22T16:59:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- salaryAccountWithdrawTest -->
+        <test-method is-config="true" signature="reInitializeVar()[pri:0, instance:QualityKioskTraining.BankAccountAPI.SalaryAccountTest@4fe767f3]" started-at="2021-04-22T16:59:54 IST" name="reInitializeVar" finished-at="2021-04-22T16:59:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reInitializeVar -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:QualityKioskTraining.BankAccountAPI.SalaryAccountTest@4fe767f3]" started-at="2021-04-22T16:59:54 IST" name="tearDown" finished-at="2021-04-22T16:59:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- QualityKioskTraining.BankAccountAPI.SalaryAccountTest -->
+    </test> <!-- SalaryAccountTest -->
+  </suite> <!-- BankAccount -->
+</testng-results>
